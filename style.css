@@ -1,0 +1,89 @@
+ul{margin:0;padding: 0; list-style: none; text-align: left;}
+li{display: inline-block;margin-right: 5px;position: relative;}
+a{background: hsl(283, 92%, 36%); color: #fff;padding: 10px 25px;
+display: block;text-decoration: none;border-radius:5px ;border-bottom: 1px solid #ddd;}
+a:hover{background: #8a0b75;}
+ul ul{position: absolute;left: 0;top: 35;width: 200px;display: none;}
+ul li:hover ul{left:0; display: block;}
+ul ul a{border-radius: 0;background-color: #262626;border-bottom:1px solid #4e0448 ;}
+ul ul a:hover{background: #d070bd;}
+
+.main{
+    width: 800px;
+    height: 800px;
+    background-color: #8a0b75;
+    margin: auto;
+    position: relative;
+}
+.header{
+    background-image: url("header2.jpg");/*header1.jpg*/
+    background-size: cover;
+    width: 800px;
+    height: 200px;
+    background-color: #e74c3c;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+.menu{
+    width: 800px;
+    height: 38px;
+    background-color: #9b59b6;
+    position: absolute;
+    top: 200px;
+    z-index: 1;
+
+}
+.container{
+    width: 800;
+    height: 438px;
+    padding-bottom: 240px;
+    margin: auto;
+    position: relative;
+}
+.left_container{
+    width: 165px;
+    height: 438px;
+    padding-left: 10px;
+    background-color: #ac1684a8;
+    display: inline-block;
+    position: absolute;
+    top: 240px;
+    left: 10px;
+}
+.middle_container{
+    width: 428px;
+    height: 438px;
+    background-color: #FDA7Df;
+    display: inline-block;
+    position: absolute;
+    top: 240px;
+    right: 185px;
+    overflow: auto;
+
+}
+.right_container{
+    width: 167px;
+    height: 438px;
+    background-color: #d575ca;
+    display: inline-block;
+    position: absolute;
+    top: 240px;
+    right: 10px;
+}
+.footer{
+    width: 800;
+    height: 75px;
+    text-align: center;
+    text-decoration-color: #1d180d;
+    background-color: #cd0bb3;
+    padding-top: 50px;
+}
+#heading{
+    color: rgb(189, 9, 126);
+    text-align: center;
+}
+#para{
+    text-align: justify;
+}
